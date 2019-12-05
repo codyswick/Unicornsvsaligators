@@ -6,7 +6,7 @@
   --primary-color-hover: #d3071b;
   --secondary-color: #103063;
   --secondary-color-hover: #143f85;
-  --light-color: #f4f4f4;
+  --light-color: linear-gradient(to bottom, red , yellow, purple, green, rgb(0, 120, 255) );
 }
 
 body {
@@ -51,6 +51,7 @@ section#entertainment {
     font-size: 25px;
     text-align: left;
     display: inline-block;
+    color: white;
 
 }
 .skills{
@@ -60,8 +61,9 @@ section#entertainment {
     padding: 25px;
     display: inline-block;
     width: 50%;
+    color: white;
 }
-.skills, .classstats p{
+.skills p, .classstats {
     text-transform: uppercase;
     text-decoration: underline;
 }
@@ -112,6 +114,10 @@ section#entertainment {
 
 #showcase h2 {
   font-size: 2rem;
+}
+
+#video{
+    background:linear-gradient(to bottom, rgb(0, 110, 255) , rgb(2, 247, 2), purple, rgb(240, 216, 4), rgb(255, 0, 0) );
 }
 
 /* Footer */
