@@ -63,7 +63,7 @@ section#entertainment {
     width: 50%;
     color: white;
 }
-.skills p, .classstats {
+.skills p, .classstats p {
     text-transform: uppercase;
     text-decoration: underline;
 }
